@@ -1,0 +1,21 @@
+@font-face {
+  src: url("../../vendor/CabinetGrotesk-Medium.woff") format("woff");
+  font-family: "Cabinet Grotesk-Medium";
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 85px 0px 24px;
+  background-color: #f3f3f3;
+}
+
+.footer__text {
+  font-family: "Cabinet Grotesk-Bold";
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
